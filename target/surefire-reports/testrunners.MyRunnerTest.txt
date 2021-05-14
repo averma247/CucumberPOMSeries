@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testrunners.MyRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.217 s <<< FAILURE! - in testrunners.MyRunnerTest
+initializationError(testrunners.MyRunnerTest)  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.ExceptionInInitializerError
+Caused by: java.lang.NullPointerException
+
