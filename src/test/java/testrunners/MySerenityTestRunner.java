@@ -8,7 +8,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		features = {"src/test/resources/com/features"},
-		glue = {"stepdefinitions","apphooks"},
+		glue = {"stepdefinitions","apphooks","net.serenity_bdd.samples"},
 		plugin={"pretty"}
 		)
 

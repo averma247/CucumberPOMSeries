@@ -8,10 +8,11 @@ import com.qa.factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.thucydides.core.annotations.Steps;
 
 public class LoginSteps {
 
-
+	@Steps
 	private LoginPage loginPage= new LoginPage(DriverFactory.getDriver());
 	private String title;
 

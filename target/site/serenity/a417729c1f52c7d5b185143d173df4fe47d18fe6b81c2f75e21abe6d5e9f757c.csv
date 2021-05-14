@@ -1,7 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Sign in page feature","Login page title","SUCCESS","2021-05-14T19:42:59.328+05:30[Asia/Calcutta]","0.0","38.54"
-"Sign in page feature","Forgot Password link","SUCCESS","2021-05-14T19:43:37.902+05:30[Asia/Calcutta]","0.0","22.94"
-"Sign in page feature","Login with correct credentials","SUCCESS","2021-05-14T19:44:00.839+05:30[Asia/Calcutta]","0.0","32.76"
 "Login page feature","Login page title","SUCCESS","2021-05-14T19:44:33.601+05:30[Asia/Calcutta]","0.0","30.08"
 "Login page feature","Forgot Password link","SUCCESS","2021-05-14T19:45:03.684+05:30[Asia/Calcutta]","0.0","29.43"
 "Login page feature","Login with correct credentials","SUCCESS","2021-05-14T19:45:33.117+05:30[Asia/Calcutta]","0.0","14.49"
