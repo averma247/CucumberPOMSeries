@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Login page feature" skipped="0" tests="3" time="97.56" timestamp="2021-05-14 07:13:29"><testcase name="Login page title"/><testcase name="Forgot Password link"/><testcase name="Login with correct credentials"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+stepdefinitions.LoginSteps.page_title_should_be(LoginSteps.java:37)&#13;
+✽.page title should be "My account - My StoreAAA"(file:///E:/Workspace/CucumberPOMSeries/src/test/resources/com/features/LoginPage.feature:18)&#13;
+</system-err></testcase></testsuite>

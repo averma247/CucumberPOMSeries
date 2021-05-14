@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: testrunners.MySerenityTestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 100.638 s <<< FAILURE! - in testrunners.MySerenityTestRunner
+Login with correct credentials(Login page feature)  Time elapsed: 36.933 s  <<< FAILURE!
+java.lang.AssertionError
+

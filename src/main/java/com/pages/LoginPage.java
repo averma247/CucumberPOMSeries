@@ -21,7 +21,7 @@ public class LoginPage {
 	@FindBy(id="SubmitLogin")
 	private WebElement signInButton;
 	
-	@FindBy(linkText="Forgot your password?111")
+	@FindBy(linkText="Forgot your password?")
 	private WebElement forgotPwdLink;
 	
 	
