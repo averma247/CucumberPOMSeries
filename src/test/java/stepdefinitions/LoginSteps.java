@@ -8,19 +8,18 @@ import com.qa.factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.thucydides.core.annotations.Steps;
 
 public class LoginSteps {
 
-	@Steps
+	
 	private LoginPage loginPage= new LoginPage(DriverFactory.getDriver());
 	private String title;
 
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
 		// Write code here that turns the phrase above into concrete actions
-		DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-
+		//DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+		loginPage.goToLoginPage();
 	}
 
 	@When("user gets the title of the page")

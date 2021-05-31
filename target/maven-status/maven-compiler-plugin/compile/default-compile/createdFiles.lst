@@ -1,6 +1,7 @@
-com\pages\LoginPage.class
 com\qa\factory\DriverFactory.class
 com\qa\util\ConfigReader.class
 com\qa\util\ElementUtil.class
-com\qa\factory\DriverType.class
+com\qa\factory\DriverFactory$browsers.class
+com\pages\LoginPage.class
+com\qa\factory\DriverFactory$1.class
 com\qa\util\Constants.class

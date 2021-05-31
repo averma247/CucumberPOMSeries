@@ -24,6 +24,8 @@ public class LoginPage {
 	@FindBy(linkText="Forgot your password?")
 	private WebElement forgotPwdLink;
 	
+	@FindBy(linkText="Sign in")
+	private WebElement loginLink;
 	
 	
 	public LoginPage(WebDriver driver){
@@ -53,6 +55,19 @@ public class LoginPage {
 	
 	public void clickOnLogin(){
 		signInButton.click();
+	}
+	
+	public AccountsPage doLogin(String un, String pwd) {
+		System.out.println("login with: " + un + " and " + pwd);
+		emailID.sendKeys(un);
+		passwd.sendKeys(pwd);
+		signInButton.click();
+		return new AccountsPage(driver);
+	}
+	
+	public void goToLoginPage(){
+		if(loginLink.isDisplayed())
+			loginLink.click();
 	}
 	
 	

@@ -24,7 +24,7 @@
 
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>net.serenity-bdd</groupId>
 			<artifactId>serenity-junit</artifactId>
 			<version>${serenity.version}</version>
@@ -53,7 +53,7 @@
 			<artifactId>serenity-cucumber6</artifactId>
 			<version>${serenity.cucumber.version}</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -115,12 +115,12 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<includes>
-						<include>**/MySerenityTestRunner.java</include>
+						<include>**/MyRunnerTest.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>net.serenity-bdd.maven.plugins</groupId>
 				<artifactId>serenity-maven-plugin</artifactId>
 				<version>${serenity.maven.version}</version>
@@ -143,7 +143,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 
 		</plugins>
 	</build>

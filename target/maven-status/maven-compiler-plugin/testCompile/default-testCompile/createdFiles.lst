@@ -1,4 +1,3 @@
 testrunners\MyRunnerTest.class
 stepdefinitions\LoginSteps.class
-testrunners\MySerenityTestRunner.class
 apphooks\ApplicationHooks.class

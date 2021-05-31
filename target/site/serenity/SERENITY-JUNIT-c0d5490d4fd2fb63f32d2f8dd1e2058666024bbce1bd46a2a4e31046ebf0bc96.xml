@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login page feature" skipped="0" tests="3" time="74.0" timestamp="2021-05-14 07:44:33"><testcase name="Login page title"/><testcase name="Forgot Password link"/><testcase name="Login with correct credentials"/></testsuite>

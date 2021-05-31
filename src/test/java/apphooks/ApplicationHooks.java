@@ -12,11 +12,10 @@ import com.qa.util.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import net.thucydides.core.annotations.Steps;
 
 public class ApplicationHooks {
 
-	@Steps
+	
 	private DriverFactory driverFactory;
 	private WebDriver driver;
 	private ConfigReader configReader;
@@ -33,8 +32,14 @@ public class ApplicationHooks {
 		String browserName=prop.getProperty("browser");
 		driverFactory= new DriverFactory();
 		driver=driverFactory.init_driver(browserName);
-
-
+		
+	}
+	
+	@Before(order=2)
+	public void gotoBaseAppURL(){
+		String appBaseURL=prop.getProperty("appurl");
+		System.out.println("Base URL: "+ appBaseURL);
+		driver.get(appBaseURL);
 	}
 
 	@After(order=0)
